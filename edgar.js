@@ -1,9 +1,9 @@
 // Define substitution mapping based on the specified rules
 const substitutionMap = {
-    'a': '5', 'b': '†', 'c': '‡', 'd': ')',
+    'a': '5', 'b': '2', 'c': '-', 'd': ')',
     'e': '0', 'f': '6', 'g': '3', 'h': ';',
-    'i': '4', 'j': '8', 'k': '*', 'l': ':',
-    'm': '(', 'n': '-', 'o': '‡', 'p': '(',
+    'i': '4', 'j': '8', 'k': '/', 'l': ':',
+    'm': '(', 'n': '*', 'o': '‡', 'p': '.',
     'q': '?', 'r': '1', 's': '7', 't': '9',
     'u': ']', 'v': '[', 'w': '=', 'x': '>',
     'y': '<', 'z': '{'
@@ -40,7 +40,7 @@ function decrypt(ciphertext) {
 }
 
 // Example usage:
-const plaintext = "a good glass in the bishop's hostel in the devil's seat forty-one degrees and thirteen minutes northeast and by north main branch seventh limb east side shoot from the left eye of the death's-head a bee-line from the tree through the shot fifty feet out";
+const plaintext = "a good glass in the bishop's hostel in the devil's seat fortyone degrees and thirteen minutes northeast and by north main branch seventh limb east side shoot from the left eye of the death's-head a bee-line from the tree through the shot fifty feet out";
 console.log("Original message:", plaintext);
 
 const encryptedMessage = encrypt(plaintext);
